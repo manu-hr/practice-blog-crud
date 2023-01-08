@@ -1,0 +1,8 @@
+<div id="blog-input">
+    <!-- <h4>Add New Blog</h4> -->
+    <!-- <div class="blog-field"><input type="text" name="id" [(ngModel)]="blog.id" placeholder="Note Id"></div> -->
+    <div class="blog-field"><input type="text" name="title" [(ngModel)]="blog.title" placeholder="Blog Title"></div>
+    <div class="blog-field"><textarea cols="60" rows="15" name="content" [(ngModel)]="blog.content"
+            placeholder="Blog Content"></textarea></div>
+    <div><button (click)="saveBlog()">Save</button></div>
+</div>
